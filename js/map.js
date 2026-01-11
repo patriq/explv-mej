@@ -31,14 +31,14 @@ $(document).ready(function () {
     });
 
     // Map squares layer
-    L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_rs3/master/mapsquares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
+    L.tileLayer.main('https://mejrs.github.io/layers_rs3/map_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
         minZoom: -4,
         maxNativeZoom: 3,
         maxZoom: 4,
     }).addTo(map);
 
     // Icons layer
-    L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_rs3/master/icon_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
+    L.tileLayer.main('https://mejrs.github.io/icon_squares/map_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
         minZoom: -4,
         maxNativeZoom: 3,
         maxZoom: 4,
