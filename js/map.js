@@ -31,14 +31,18 @@ $(document).ready(function () {
     });
 
     // Map squares layer
-    L.tileLayer.main('https://mejrs.github.io/layers_rs3/map_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
+    // https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master/map_squares/-1/1/0_30_25.png
+    // https://mejrs.github.io/layers_rs3/map_squares/-1/1/0_30_25.png
+    L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master/map_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
         minZoom: -4,
         maxNativeZoom: 3,
         maxZoom: 4,
     }).addTo(map);
 
     // Icons layer
-    L.tileLayer.main('https://mejrs.github.io/layers_rs3/icon_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
+    // https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master/icon_squares/0/1/0_30_25.png
+    // https://mejrs.github.io/layers_rs3/icon_squares/0/1/0_30_25.png
+    L.tileLayer.main('https://raw.githubusercontent.com/mejrs/layers_rs3/refs/heads/master/icon_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
         minZoom: -4,
         maxNativeZoom: 3,
         maxZoom: 4,
