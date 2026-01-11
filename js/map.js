@@ -38,7 +38,7 @@ $(document).ready(function () {
     }).addTo(map);
 
     // Icons layer
-    L.tileLayer.main('https://mejrs.github.io/icon_squares/map_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
+    L.tileLayer.main('https://mejrs.github.io/icon_squares/{mapId}/{zoom}/{plane}_{x}_{y}.png', {
         minZoom: -4,
         maxNativeZoom: 3,
         maxZoom: 4,
